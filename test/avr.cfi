@@ -5,5 +5,5 @@ PSet vertexreco =
   double primcut = 3.0
   double seccut = 6.0
   double minweight = 0.5
-  bool smoothing = false
+  bool smoothing = true
 }
