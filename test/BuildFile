@@ -1,9 +1,8 @@
-<use name=FWCore/Framework>
-<use name=FWCore/ParameterSet>
-<use name=RecoVertex/ConfigurableVertexReco>
 <library file="CVRTest.cc" name=CVRTest>
 	<use name=FWCore/Framework>
 	<use name=FWCore/ParameterSet>
 	<use name=RecoVertex/ConfigurableVertexReco>
+        <use name=root>
+	<use name=PhysicsTools/UtilAlgos>
   <flags EDM_PLUGIN=1>
 </library>
